@@ -8,6 +8,7 @@ require('dotenv').config();
 const app = express();
 
 const cors = require('cors');
+const history = require('connect-history-api-fallback')
 
 
 const http = require('http');
